@@ -9,7 +9,7 @@ from deepface import DeepFace
 DATA_DIR = 'data'
 os.makedirs(DATA_DIR, exist_ok=True)
 
-MODEL_NAME = "Facenet"            # choose and keep same in test.py
+MODEL_NAME = "ArcFace"            # choose and keep same in test.py
 DETECTOR_BACKEND = 'opencv'       # avoids extra deps
 
 # build model first (downloads if needed)
@@ -106,3 +106,4 @@ with open(faces_path, 'wb') as f:
     pickle.dump(saved_faces, f)
 
 print(f"Saved {len(embeddings)} embeddings for {name}")
+
