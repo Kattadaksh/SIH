@@ -14,7 +14,7 @@ import sys
 
 # ----------------------------- CONFIG -----------------------------
 DATA_DIR = 'data'
-MODEL_NAME = "Facenet"
+MODEL_NAME = "ArcFace"
 DETECTOR_BACKEND = 'opencv'
 HOTSPOT_SSID = "Teacher_Hotspot"
 COL_NAMES = ['NAME', 'TIME']
@@ -176,3 +176,4 @@ while True:
 
 video.release()
 cv2.destroyAllWindows()
+
