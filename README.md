@@ -1,2 +1,1 @@
-# SIH
-This is our SIH project regarding online and easy attendance
+# face_recognition_project
